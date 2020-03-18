@@ -187,7 +187,7 @@ def _LoadDatabase():
     stored_data = cPickle.load(f)
     f.close()
   except (IOError, ValueError):
-    _Log('Couldn\'t load data; expected the first time Gruyere is run')
+    _Log('Couldn\'t load data; expected the first time Gruyere is run albert')
     stored_data = None
 
   f = _Open(INSTALL_PATH, SECRET_FILE)
