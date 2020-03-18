@@ -170,7 +170,7 @@ def _Exit(reason):
 
 
 def _SetWorkingDirectory():
-  """Set the working directory to the directory containing this file."""
+  """Set the working directory to the directory containing this file x."""
   if sys.path[0]:
     os.chdir(sys.path[0])
 
